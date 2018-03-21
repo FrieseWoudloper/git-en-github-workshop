@@ -30,11 +30,13 @@ Je hebt zojuist je eerste GitHub repository aangemaakt :-)
    
 ## Stap 2: Lokale kopie aanmaken
 
-Open Git Bash.  
+Open Git Bash in Windows of open een Terminal op je Mac.  
 Navigeer naar de map waar je de repository wilt opslaan.   
-Gebruik hiervoor het volgende commando:   
-   
-`$ cd "D:/Jouw map naam"`
+Gebruik hiervoor het commando `cd`.   
+
+Bijvoorbeeld:
+`$ cd "D:/Jouw map naam"` (Windows)
+`cd ~/jouw_map_naam` (MacOS)
 
 Check de hyperlink naar de remote repository die je in de vorige stap hebt aangemaakt op GitHub.   
 Die hyperlink is als volgt opgebouwd: https://github.com/jouwGebruikersnaam/jouwRepositorynaam.git.   
@@ -44,11 +46,12 @@ Klik op **Clone or download** en kopieer de hyperlink die vervolgens getoond wor
 <img alt="Copy to clipboard" src="images/new-repo-url.png" width="300" />
    
    
-Ga terug naar Git Bash.   
+Ga terug naar de command line (Git Bash of Terminal).   
 Kopieer de remote repository naar je lokale computer met het volgende commando:   
 
 `$ git clone https://github.com/jouwGebruikersnaam/jouwRepositorynaam.git`   
-   
+
+NB de git commando's zelf zijn identiek in Git Bash en in Terminal.
    
 <img alt="Clone my first repo" src="images/new-repo-clone.png" width="400" />
 
@@ -62,14 +65,14 @@ Het is ook slim om de README.md aan te passen.
 De inhoud van dit bestand wordt namelijk getoond aan bezoekers van de webpagina van je GitHub repository.   
 Dan is het handig als de README.md wat meer informatie bevat over de inhoud van de repository.   
 
-README.md is een markdown bestand.   
+README.md is een Markdown bestand.   
 Markdown is net als HTML een taal voor het opmaken van webpagina's, maar dan een stuk eenvoudiger.   
 Klik hier voor een [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).   
 
 Open de README.md in een teksteditor en pas de inhoud aan.   
 Voeg eventueel een map en wat nieuwe bestanden toe aan je lokale repository.  
 
-Ga terug naar Git Bash.   
+Ga terug naar de command line.   
 Navigeer naar de lokale repository.   
 
 `$ cd "D:/Jouw map naam/Jouw repository naam"`
